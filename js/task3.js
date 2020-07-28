@@ -13,8 +13,6 @@ const makeTransaction = (transaction) => {
 				reject(transaction.id);
 			}
 		}, delay);
-		if (time < 0) {
-		}
 	})
 };
 
